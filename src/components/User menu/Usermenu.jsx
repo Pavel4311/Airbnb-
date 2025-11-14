@@ -1,4 +1,5 @@
 import Account from "../Accoumt/account";
+import Link from "../Link/Link";
 import usermenuIcons from "./globe.svg";
 import "./style.scss";
 const Usermenu = () => {
@@ -6,7 +7,7 @@ const Usermenu = () => {
     <div className="username">
       <div className="username_txt">Airbnb your home</div>
       <div className="username_icons">
-        <img src={usermenuIcons} alt="icons" />
+        <Link icon={usermenuIcons} />
       </div>
       <div className="user-menu__user">
         <Account />

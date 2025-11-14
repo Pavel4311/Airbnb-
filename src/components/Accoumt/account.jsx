@@ -1,4 +1,5 @@
 import navIcon from "./nav.svg";
+import userAvatar from "./user-avatar.svg";
 import "./style.scss";
 
 const Account = () => {
@@ -8,7 +9,7 @@ const Account = () => {
         <img src={navIcon} alt="Nav" />
       </div>
       <div className="account__avatar">
-        <img src="./img/icons/user-avatar.svg" alt="User avatar" />
+        <img src={userAvatar} alt="User avatar" />
       </div>
     </button>
   );
