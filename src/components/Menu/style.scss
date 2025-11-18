@@ -1,0 +1,84 @@
+/* Основной контейнер меню */
+.image-menu {
+  position: relative;
+  display: inline-block;
+}
+
+/* Стили для иконки меню */
+.menu-image {
+}
+
+.menu-image:hover {
+  transform: scale(1.1);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Выпадающее меню */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  padding: 8px 0;
+  margin-top: 8px;
+  min-width: 220px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  background: white;
+
+  //   position: absolute;
+  //   top: 100%;
+  //   right: 0;
+  //   background: white;
+  //   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  //   border-radius: 12px;
+  //   padding: 8px 0;
+  //   min-width: 220px;
+  //   margin-top: 8px;
+  //   z-index: 1000;
+  //   animation: slideDown 0.3s ease;
+  //   border: 1px solid #e0e0e0;
+}
+
+/* Анимация появления */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Стили для пунктов меню */
+.dropdown-menu li {
+  list-style: none;
+  margin: 0;
+}
+
+.link_menu {
+  display: block;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+}
+
+.link_menu:hover {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+/* Разделитель между пунктами */
+.dropdown-menu li:not(:last-child) {
+  border-bottom: 1px solid #f0f0f0;
+}

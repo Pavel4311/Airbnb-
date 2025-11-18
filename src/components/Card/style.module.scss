@@ -1,0 +1,187 @@
+.card {
+  position: relative;
+  // max-width: 400px;
+
+  &:hover {
+    opacity: 0.8;
+    transition: all 0.2s ease-in;
+  }
+}
+
+.link {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  margin-bottom: 12px;
+  border-radius: 12px;
+
+  width: 100%;
+  aspect-ratio: 302 / 286;
+  object-fit: cover;
+}
+
+.descWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 127%;
+  color: #222;
+}
+
+.rating {
+  display: flex;
+  gap: 4px;
+  align-self: center;
+  align-items: center;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 127%;
+  text-align: right;
+  color: #222;
+}
+
+.desc {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 127%;
+  color: #717171;
+}
+
+.date {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 146%;
+  color: #717171;
+}
+
+.price {
+  margin-top: 8px;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 127%;
+  color: #222;
+
+  strong {
+    font-weight: 600;
+  }
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.expandedCard {
+  background: white;
+  border-radius: 16px;
+  max-width: 600px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.closeButton {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    background: #f5f5f5;
+  }
+}
+
+.expandedImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+
+.expandedContent {
+  padding: 24px;
+}
+
+.expandedTitle {
+  font-size: 24px;
+  margin: 0 0 16px 0;
+  color: #333;
+}
+
+.expandedDesc {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.additionalInfo {
+  background: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 20px 0;
+
+  h4 {
+    margin: 0 0 12px 0;
+    color: #333;
+  }
+
+  p {
+    margin: 8px 0;
+    color: #555;
+  }
+}
+
+.bookButton {
+  width: 100%;
+  padding: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: #0056b3;
+  }
+}

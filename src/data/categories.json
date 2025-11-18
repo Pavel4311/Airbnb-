@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Amazing views",
+    "img": "./airbnb src files/img/categories/01.svg"
+  },
+  {
+    "title": "Lakefront",
+    "img": "./airbnb src files/img/categories/02.svg"
+  },
+  {
+    "title": "Caves",
+    "img": "./airbnb src files/img/categories/03.svg"
+  },
+  {
+    "title": "OMG!",
+    "img": "./airbnb src files/img/categories/04.svg"
+  },
+  {
+    "title": "Earth homes",
+    "img": "./airbnb src files/img/categories/05.svg"
+  },
+  {
+    "title": "Treehouses",
+    "img": "./airbnb src files/img/categories/06.svg"
+  },
+  {
+    "title": "Mansions",
+    "img": "./airbnb src files/img/categories/07.svg"
+  },
+  {
+    "title": "Cabins",
+    "img": "./airbnb src files/img/categories/08.svg"
+  },
+  {
+    "title": "Amazing pools",
+    "img": "./airbnb src files/img/categories/09.svg"
+  },
+  {
+    "title": "Islands",
+    "img": "./airbnb src files/img/categories/10.svg"
+  },
+  {
+    "title": "Beachfront",
+    "img": "./airbnb src files/img/categories/11.svg"
+  },
+  {
+    "title": "Trending",
+    "img": "./airbnb src files/img/categories/12.svg"
+  }
+]
